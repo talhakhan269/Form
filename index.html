@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <form action="">
+        <label for="firstname">Username</label>
+        <input
+          type="text"
+          placeholder="username / email"
+          name="firstname"
+          required
+        />
+
+        <label for="firstname">Password</label>
+        <input
+          type="password"
+          placeholder="password"
+          name="password"
+          required
+        />
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" /><label>male</label>
+        <input type="radio" name="gender" /><label>female</label>
+        <input type="radio" name="gender" /><label>not confirm</label>
+        <br />
+        <br />
+        <label for="courses">Courses</label>
+        <input type="checkbox" name="courses" /><label>HTML</label>
+        <input type="checkbox" name="courses" /><label>CSS</label>
+        <input type="checkbox" name="courses" /><label>JavaScript</label>
+
+        <textarea
+          placeholder="message....."
+          name="message"
+          id="message"
+          rows="3"
+        ></textarea>
+
+        <label for="city">City</label>
+        <select name="city" id="city">
+          <option value="karachi">punjab</option>
+          <option value="hyderabad">quetta</option>
+          <option value="nawabshah">sukkur</option>
+          <option value="sukkur">karachi</option>
+          <option value="sukkur">hyderabad</option>
+        </select>
+
+        <button>submit</button>
+      </form>
+    </div>
+  </body>
+</html>
